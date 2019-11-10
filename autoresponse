@@ -1,0 +1,9 @@
+import sys
+
+if __name__ == '__main__':
+    print('Hello!')
+    while True:
+        str=input()
+        if str!='你好' and str!='你好！' and str!='你好!':  
+            str=str.replace('吗', '').replace('?', '!').replace('？', '！').replace('你','我')
+        print(str)
